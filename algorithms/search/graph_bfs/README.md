@@ -1,13 +1,28 @@
-### Graph Depth-first search
+# Table of content:
+ - Introduction
+ - Analysis
 
-DFS stands for depth-first search. The algorithm starts from the root node of the graph and explores as far as possible along each branch, and then after going at the depth most point possible, it backtracks.
+### Introduction
 
+BFS stands for breadth-first search. It starts from the root of the given graph and then traverse all nodes at the current depth level before moving on to nodes at the next depth level.
 
-#### Time complexity
+#### Analysis
+The time complexity of BFS depends upon the data structure used to store the graph.
 
-Similar to that of BFS time complexity of DFS depends upon the data structure used to store the graph. If it's an adjacency list, then the time complexity is O(V + E); otherwise, if it's an adjacency matrix, the time complexity is O(V ^ 2). 
-Reasons are the same as that of BFS as in this also we are traversing each node of the graph.
+If, for example, an adjacency list is used to store the graph.
 
-### Space complexity
+In adjacency, the list node keeps track of all of its neighboring edges. Let's say that there are V nodes and E edges in the graph.
 
-We are using a stack to keep track of the last visited node. Thus it would take the size of the number of nodes (vertices) in the tree. Hence, the space complexity is O(V).
+We can find all the neighbors of a node just by traversing its adjacency list only once, that too in linear time.
+
+The sum of the sizes of the adjacency lists of all nodes in a directed graph is E. Thus, for a directed graph, the time complexity is O(V) + O(E) = O(V + E).
+
+In an undirected graph, each edge appears twice. Once at either end of the adjacency list for the edge. Thus, in this case, the time complexity is O(V) + O (2E) ~ O(V + E).
+
+If we use an adjacency matrix to store the graph, then.
+
+To find all the neighboring nodes, we have to traverse a full row of length V in the matrix.
+
+Each row in an adjacency matrix corresponds to a node in the graph, and each row stores information about the edges that emerge from that node. As a result, in this situation, the time complexity of BFS is O(V * V) = O(V ^ 2).
+
+Because we're using a queue (FIFO architecture) to keep track of the visited nodes, the queue would take the size of the graph's nodes (or vertices). As a result, the space complexity is O (V).
