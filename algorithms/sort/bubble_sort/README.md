@@ -22,6 +22,8 @@ When a swap is made, we know the list is still unsorted. The outer loop will run
 
 The process repeats until the largest element makes its way to the last index of the list. The outer loop runs until no swaps are made within the inner loop.
 
+![bubble_sort](bubble_sort1.png)
+
 
 ### Analysis
 Given a moderately unsorted data-set, bubble sort requires multiple passes through the input before producing a sorted list. Each pass through the list will place the next largest value in its proper place.

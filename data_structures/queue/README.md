@@ -22,6 +22,8 @@ If they just want to know who is next in line, they can peek and get their name 
 
 *The first person in the queue is the first to be served. Queues are a First In, First Out or FIFO structure.*
 
+![queue](queue.png)
+
 
 ### Implementation
 

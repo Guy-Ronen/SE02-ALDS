@@ -20,6 +20,8 @@ At the beginning, the size of sorted sub-array  is 0 and the size of unsorted su
 
 At each step, the size of sorted sub-array increases by 1 and size of unsorted sub-array decreases by 1.
 
+![selection_sort](selection_sort.png)
+
 #### Analysis
 
 The time-complexity of finding the smallest element in a list of n elements is `O(n)`. This is constant for all worst case, average case and best case.

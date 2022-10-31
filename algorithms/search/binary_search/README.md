@@ -28,6 +28,8 @@ We want to reduce the size of the search area by half each time in order to find
 
 If left > right end - Element is not in the array. 
 
+![binary_search](binary_search.png)
+
 ### Analysis
 Best case: We find element at the first midpoint - _O(1)_
 Worst case: We didnt find the element, so we keep searching at every iteration at only half the previous one.

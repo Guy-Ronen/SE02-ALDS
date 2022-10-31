@@ -21,6 +21,8 @@ Developing a data structure that performs this is tricky because computers care 
 ### Implementation
 We perform this trick using a structure that our computer is already familiar with, an array. An array uses indices to keep track of values in memory, so we’ll need a way of turning each key in our map to an index in our array.
 
+![hash_map](hash_map.png)
+
 ### Hash Functions
 A hash function takes a string (or some other type of data) as input and returns an array index as output. In order for it to return an array index, our hash map implementation needs to know the size of our array. Our hash map’s hashing method should not return an index bigger than that.
 

@@ -18,10 +18,9 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 - The current element is compared to the elements in all preceding positions to the left in each step.
 - If the current element is less than any of the previously listed elements, it is moved one position to the left.
 
+![insertion_sort](insertion_sort.png)
 
-#### Time complexity
-
-
+#### Analysis
 The worst-case (and average-case) complexity of the insertion sort algorithm is `O(n^2)`.
 
 Meaning that, in the worst case, the time taken to sort a list is proportional to the square of the number of elements in the list.
@@ -29,7 +28,7 @@ Meaning that, in the worst case, the time taken to sort a list is proportional t
 The best-case time complexity of insertion sort algorithm is O(n) time complexity. In this is the case when the list is already in the correct order. There’s only one iteration in this case since the inner loop operation is trivial when the list is already in order.
 
 
-##### Analysis
+**Example**
 Unsorted list: `[2,13,5,18,14]`
 
 - 1st iteration:

@@ -33,8 +33,10 @@ This is a weighted graph, where edges have a number or cost associated with trav
 
 These costs are essential to algorithms that find the shortest distance between two vertices.
 
+![graph](graph.png)
 
-- We typically represent the vertex-edge relationship of a graph in two ways: an adjacency list or an adjacency matrix.
+
+We typically represent the vertex-edge relationship of a graph in two ways: an adjacency list or an adjacency matrix.
 
 #### Adjacency Matrix
 

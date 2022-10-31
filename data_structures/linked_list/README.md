@@ -10,7 +10,7 @@ The list is comprised of a series of nodes.
 The head node is the node at the beginning of the list. Each node contains data and a link (or pointer) to the next node in the list. 
 The list is terminated when a node’s link is `null`. This last node is called the tail node.
 
-
+![linked_list](linked_list.png)
 ### Use Cases
 One example can be a one-way air travel itinerary. The trip could involve traveling through several airports (nodes) connected by air travel segments (links). In this example, the initial departure city is the head node and the final arrival city is the tail node.
 

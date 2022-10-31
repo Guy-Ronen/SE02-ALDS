@@ -4,8 +4,9 @@ My porftfolio repository for my ALDS module in University
 - <a href='Introduction.md'>Introduction to algorithms and data-structures</a>
     <br>
 - **Data-structures:**
+    - <a href='data_structures/array/README.md'> Array </a>
     - <a href='data_structures/graph/README.md'> Graph </a>
-    - <a href='data_structures/hash_maps/README.md'> Hash Maps </a>
+    - <a href='data_structures/hash_map/README.md'> Hash Map </a>
     - <a href='data_structures/linked_list/README.md'> Linked List </a>
     - <a href='data_structures/queue/README.md'> Queue </a>
     - <a href='data_structures/stack/README.md'> Stack </a>

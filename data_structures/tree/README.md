@@ -23,6 +23,8 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
   Trees can be both wide and deep, but each node will only ever have at most one parent; otherwise, they wouldn’t be trees!
 - Each time we move from a parent to a child, we’re moving down a level. Depending on the orientation we refer to this as the depth (counting levels down from the root node) or height (counting levels up from a leaf node).
 
+![tree](tree.png)
+
 #### Breadth-first search vs. depth-first search
 
 Each approach has unique characteristics but the process for each one is almost exactly the same. The only difference in their approach is how they store the nodes that need to be searched next. These nodes are known as the frontier.
