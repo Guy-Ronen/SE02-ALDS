@@ -27,16 +27,7 @@ If left > right end - Element is not in the array.
 
 
 
-
-
-### Best case: 
-We find element at the first midpoint - _O(1)_
-### Worst case: 
-We didnt find the element, so we keep searching at every iteration at only half the previous one.
+### Time Complexity
+Best case: We find element at the first midpoint - _O(1)_
+Worst case: We didnt find the element, so we keep searching at every iteration at only half the previous one.
 In an array of 16 -> 8 -> 4 -> 2 -> 1 - 4 iteration for 16 elements results in logarithmic time complexity-  _O(logn)_
-
-
-
-#### Use Cases
-- Finding a word in the dictionary.
-- Finding a name in a phone book.
