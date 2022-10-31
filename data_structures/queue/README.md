@@ -28,8 +28,9 @@ One constraint that may be placed on a queue is its length. If a queue has a lim
 Similar to stacks, attempting to enqueue data onto an already full queue will result in a queue overflow. If you attempt to dequeue data from an empty queue, it will result in a queue underflow.
 
 
-### Time complexities:
-- Acess: O(n)
+#### Analysis of Queue Operations(Array based Queue):
+
+- Insert: O(1)
+- Delete: O(1)
 - Search: O(n)
-- Insertion: O(1)
-- Deletion: O(1)
+- Read: O(n)
