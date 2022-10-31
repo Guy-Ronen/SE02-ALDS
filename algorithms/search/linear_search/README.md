@@ -1,8 +1,15 @@
-# Linear Search 
+# Table of content:
+ - Introduction
+ - Implementation
+ - Analysis
+
+# Introduction
 Linear search is an algoritem we can use to search for an element through an array.
 
-## Time Complexity 
+## Implementation
 At each step, it compares the element at the index to the elememt we want to find. Once we found the element or we went through the entire array without finding the element - the algoritm finishes.
+
+## Analysis
 
 - Best case: We found the array at the first try - _O(1)_
 - Worst case: We traversed through the entire array and couldnt find the element. in an array of 5 elemets it will be: 

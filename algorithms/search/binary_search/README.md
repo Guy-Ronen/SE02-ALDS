@@ -1,9 +1,13 @@
-# Binary Search 
+# Table of content:
+ - Introduction
+ - Implementation
+ - Analysis
+# Introduction
 Binary search is an algorithm we can use to find an element inside of an array. Unlike linear search, it requires a special condition be met beforehand, but it's so much more efficient if that condition is, in fact, met. 
 
 We want to reduce the size of the search area by half each time in order to find a target number. **We can only leverage the power of eliminating half of the elements without even looking at them if the array is sorted.** 
 
-## Pseudocode
+## Implementation
 1. Create 3 different variables: 
     1. Left index 
     2. Right index
@@ -24,10 +28,7 @@ We want to reduce the size of the search area by half each time in order to find
 
 If left > right end - Element is not in the array. 
 
-
-
-
-### Time Complexity
+### Analysis
 Best case: We find element at the first midpoint - _O(1)_
 Worst case: We didnt find the element, so we keep searching at every iteration at only half the previous one.
 In an array of 16 -> 8 -> 4 -> 2 -> 1 - 4 iteration for 16 elements results in logarithmic time complexity-  _O(logn)_
