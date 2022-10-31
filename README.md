@@ -3,7 +3,7 @@ My porftfolio repository for my ALDS module in University
 # Table of Content: 
 - <a href='Introduction.md'>Introduction to algorithms and data-structures</a>
     <br>
-- Data-structures:
+- **Data-structures:**
     - <a href='data_structures/graph/README.md'> Graph </a>
     - <a href='data_structures/hash_maps/README.md'> Hash Maps </a>
     - <a href='data_structures/linked_list/README.md'> Linked List </a>
@@ -13,8 +13,8 @@ My porftfolio repository for my ALDS module in University
 
     <br>
 
-- Algorithms: 
-    - Search
+- **Algorithms:**
+    - **Search**
         - <a href='algorithms/search/binary_search/README.md'> Binary Search </a>
         - <a href='algorithms/search/linear_search/README.md'> Linear Search </a>
         - <a href='algorithms/search/graph_bfs/README.md'> Graph BFS </a>
@@ -22,7 +22,7 @@ My porftfolio repository for my ALDS module in University
         - <a href='algorithms/search/tree_bfs/README.md'> Tree BFS </a>
         - <a href='algorithms/search/tree_dfs/README.md'> Tree DFS </a>
     
-    - Sort
+    - **Sort**
         - <a href='algorithms/sort/bubble_sort/README.md'> Bubble Sort </a>
         - <a href='algorithms/sort/insertion_sort/README.md'> Insertion Sort </a>
         - <a href='algorithms/sort/merge_sort/README.md'> Merge Sort </a>
