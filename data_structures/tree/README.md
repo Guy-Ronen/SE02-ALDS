@@ -11,6 +11,10 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - `leaf:` Nodes which have no children.
 - `level:` The height or depth of the tree. Root nodes are at level 1, their children are at level 2, and so on.
 
+#### Operations (Binary tree)
+- Insert: For inserting element as left child of 2, we have to traverse all elements. Therefore, insertion in binary tree has worst case complexity of O(n).
+- Delete: For deletion of element 2, we have to traverse all elements to find 2 (assuming we do breadth first traversal). Therefore, deletion in binary tree has worst case complexity of O(n).
+- Search:  For searching element 2, we have to traverse all elements (assuming we do breadth first traversal). Therefore, searching in binary tree has worst case complexity of O(n).
 
 #### Tree varietals
 - Trees come in various shapes and sizes depending on the dataset modeled.
