@@ -1,3 +1,4 @@
+
 ### Merge Sort
 
  Merge sort's strategy is to break the list-to-be-sorted into smaller parts, sometimes called a divide-and-conquer algorithm.

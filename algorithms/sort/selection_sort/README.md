@@ -1,37 +1,38 @@
-### Selection sort
+# Table of content:
+ - Introduction
+ - Implementation
+ - Analysis
+
+### Introduction
 
 The basic idea of Selection Sort is find the smallest element in the unsorted array and add it to the front of the array. 
 In Selection Sort, we maintain two parts:
 
- - Sorted sub-array
+- Sorted sub-array
 - Unsorted sub-array
 
 In sorted sub-array, all elements are in sorted order and are less than all elements of the unsorted sub-array.
 
 Selection Sort is as follows:
 
-#### Time Complexity Analysis
+#### Implementation
 At the beginning, the size of sorted sub-array  is 0 and the size of unsorted sub-array is n.
 
 At each step, the size of sorted sub-array increases by 1 and size of unsorted sub-array decreases by 1.
 
-The Time Complexity of finding the smallest element in a list of n elements is O(n). This is constant for all worst case, average case and best case.
+#### Analysis
 
-Hence, the time complexity of Selection Sort is O(N2).
+The time-complexity of finding the smallest element in a list of n elements is `O(n)`. This is constant for all worst case, average case and best case.
 
+Hence, the time complexity of Selection Sort is `O(n^2)`.
 
-### Space Complexity of Selection Sort
-The space complexity of Selection Sort is O(1).
-
-This is because we use only constant extra space such as:
-
-2 variables to enable swapping of elements.
+The space complexity of Selection Sort is `O(1)`. This is because we use only constant extra space such as:
+- 2 variables to enable swapping of elements.
 One variable to keep track of smallest element in unsorted array.
 
-Hence, in terms of Space Complexity, Selection Sort is optimal as the memory requirements remain same for every input.
+Selection Sort has an optimal space-complexity as the memory requirements remain same for every input.
 
-
-#### Example
+**Example:**
 Unsorted list:`[5	2	1	4	3]`
 
 - 1st iteration:

@@ -1,4 +1,7 @@
-## Bubble Sort 
+# Table of content:
+ - Introduction
+ - Implementation
+ - Analysis
 ### Introduction
 Bubble sort is an introductory sorting algorithm that iterates through a list and compares pairings of adjacent elements.
 
@@ -20,7 +23,7 @@ When a swap is made, we know the list is still unsorted. The outer loop will run
 The process repeats until the largest element makes its way to the last index of the list. The outer loop runs until no swaps are made within the inner loop.
 
 
-### Algorithm Analysis
+### Analysis
 Given a moderately unsorted data-set, bubble sort requires multiple passes through the input before producing a sorted list. Each pass through the list will place the next largest value in its proper place.
 
 We are performing n-1 comparisons for our inner loop. Then, we must go through the list n times in order to ensure that each item in our list has been placed in its proper order.

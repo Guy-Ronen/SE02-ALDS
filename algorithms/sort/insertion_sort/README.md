@@ -1,4 +1,8 @@
-### Insertion sort
+# Table of content:
+ - Introduction
+ - Implementation
+ - Analysis
+### Introduction
 
 Insertion sort is one of the intutive sorting algorithm and is based on one assumption that a single element is always sorted.
 
@@ -7,7 +11,7 @@ Hence, the first element of array forms the sorted subarray while the rest creat
 In each iteration, we extend the sorted subarray while shrinking the unsorted subarray.
 
 
-#### Steps of the algorithm
+#### Implementation
 
 - Begin with a list of unsorted elements.
 - Iterate through the list of unsorted elements, from the first item to last.
@@ -25,7 +29,7 @@ Meaning that, in the worst case, the time taken to sort a list is proportional t
 The best-case time complexity of insertion sort algorithm is O(n) time complexity. In this is the case when the list is already in the correct order. There’s only one iteration in this case since the inner loop operation is trivial when the list is already in order.
 
 
-##### Example
+##### Analysis
 Unsorted list: `[2,13,5,18,14]`
 
 - 1st iteration:
