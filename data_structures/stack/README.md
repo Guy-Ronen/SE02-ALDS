@@ -1,8 +1,8 @@
 # Table of content:
- - Introduction
- - Real world application
- - Implementation
- - Analysis
+- Introduction
+- Real world application
+- How the algorithm works
+- Analysis
 
 ## Introduction
 A stack is a data structure which contains an ordered set of data.
@@ -12,7 +12,6 @@ Stacks provide three methods for interaction:
 - Push - adds data to the “top” of the stack
 - Pop - returns and removes data from the “top” of the stack
 - Peek - returns data from the “top” of the stack without removing it
-
 
 ### Real world examples:
 Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
@@ -25,8 +24,8 @@ Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
 
 ![stack](stack.webp)
 
+### How the algorithm works:
 
-### Implementation:
 Stacks can be implemented using a linked list as the underlying data structure because it’s more efficient than a list or array.
 
 Depending on the implementation, the top of the stack is equivalent to the head node of a linked list and the bottom of the stack is equivalent to the tail node.
@@ -34,6 +33,7 @@ Depending on the implementation, the top of the stack is equivalent to the head 
 A constraint that may be placed on a stack is its size. This is done to limit and quantify the resources the data structure will take up when it is “full.”
 
 Attempting to push data onto an already full stack will result in a stack overflow. Similarly, if you attempt to pop data from an empty stack, it will result in a stack underflow.
+
 ### Analysis of Stack Operations (Array based stack):
 
 - Insert: O(1)
