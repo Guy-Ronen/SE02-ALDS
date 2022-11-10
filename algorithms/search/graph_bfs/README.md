@@ -7,6 +7,7 @@
 BFS stands for breadth-first search. It starts from the root of the given graph and then traverse all nodes at the current depth level before moving on to nodes at the next depth level.
 
 ![graph_bfs](graph_bfs.png)
+<small>_Photo curtesy of: [freeCodeCamp](https://www.freecodecamp.org/news/breadth-first-search-a-bfs-graph-traversal-guide-with-3-leetcodeexamples/)_</small>
 
 #### Analysis
 The time complexity of BFS depends upon the data structure used to store the graph.

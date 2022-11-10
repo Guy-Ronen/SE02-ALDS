@@ -11,6 +11,7 @@ The head node is the node at the beginning of the list. Each node contains data 
 The list is terminated when a node’s link is `null`. This last node is called the tail node.
 
 ![linked_list](linked_list.png)
+<small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)_</small>
 ### Use Cases
 One example can be a one-way air travel itinerary. The trip could involve traveling through several airports (nodes) connected by air travel segments (links). In this example, the initial departure city is the head node and the final arrival city is the tail node.
 

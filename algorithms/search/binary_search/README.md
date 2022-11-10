@@ -26,6 +26,7 @@ We want to reduce the size of the search area by half each time in order to find
 If left > right end - Element is not in the array.
 
 ![binary_search](binary_search.png)
+<small>_Photo curtesy of: [Digital Ocean](https://www.digitalocean.com/community/tutorials/js-linear-vs-binary-search)_</small>
 
 ### Analysis
 Best case: We find element at the first midpoint - _O(1)_

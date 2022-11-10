@@ -24,7 +24,7 @@ If they just want to know who is next in line, they can peek and get their name 
 _The first person in the queue is the first to be served. Queues are a First In, First Out or FIFO structure._
 
 ![queue](queue.png)
-
+<small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/queue-data-structure/)_</small>
 ### How the algorithm works
 
 Queues can be implemented using a linked list as the underlying data structure. The front of the queue is equivalent to the head node of a linked list and the back of the queue is equivalent to the tail node.

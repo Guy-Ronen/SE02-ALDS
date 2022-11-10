@@ -10,6 +10,7 @@ Linear search is an algoritem we can use to search for an element through an arr
 At each step, it compares the element at the index to the elememt we want to find. Once we found the element or we went through the entire array without finding the element - the algoritm finishes.
 
 ![linear_search](linear_search.webp)
+<small>_Photo curtesy of: [Simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial/linear-search-algorithm)_</small>
 ## Analysis
 
 - Best case: We found the array at the first try - _O(1)_

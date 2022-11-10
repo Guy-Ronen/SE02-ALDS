@@ -23,6 +23,7 @@ Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
 - The last plate that you put down becomes the first, and only, one that you can access. This is a Last In, First Out or LIFO structure. A less frequently used term is First In, Last Out, or FILO.
 
 ![stack](stack.webp)
+<small>_Photo curtesy of: [Progamiz](https://www.programiz.com/dsa/stack)_</small>
 
 ### How the algorithm works:
 

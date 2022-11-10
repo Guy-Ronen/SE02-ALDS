@@ -29,6 +29,7 @@ At first _**left_index**_ and _**right_index**_ both point to the start of their
 Compare the elements at _**left_index**_ and _**right_index**_. The smaller of these two elements should be the first element of both because it’s the smallest of both! It’s the smallest of the two smallest values.
 
 ![merge_sort](merge_sort.png)
+<small>_Photo curtesy of: [Bmu Verlag](https://bmu-verlag.de/mergesort-ein-effizienter-sortieralgorithmus/)_</small>
 
 #### Analysis
 

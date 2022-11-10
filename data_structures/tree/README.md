@@ -24,6 +24,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - Each time we move from a parent to a child, we’re moving down a level. Depending on the orientation we refer to this as the depth (counting levels down from the root node) or height (counting levels up from a leaf node).
 
 ![tree](tree.png)
+<small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))_</small>
 
 #### Breadth-first search vs. depth-first search
 

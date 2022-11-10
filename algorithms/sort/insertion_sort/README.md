@@ -18,7 +18,7 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 - If the current element is less than any of the previously listed elements, it is moved one position to the left.
 
 ![insertion_sort](insertion_sort.png)
-
+<small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/)_</small>
 #### Analysis
 The worst-case (and average-case) complexity of the insertion sort algorithm is `O(n^2)`.
 

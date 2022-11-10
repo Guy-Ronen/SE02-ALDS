@@ -17,6 +17,7 @@ Once the first partition is being made, we recursively repeat the process until 
 Once we have all items paritioned, all items are actully sorted.
 
 ![quick_sort](quick_sort.png)
+<small>_Photo curtesy of: [workat.tech](https://workat.tech/problem-solving/tutorial/sorting-algorithms-quick-sort-merge-sort-dsa-tutorials-6j3h98lk6j2w)_</small>
 
 ### Analysis
 In an evenly distributed paritions to their sub-arrays - we traverse the element n iterations * `log(N)` levels to given n size array (because we always split the array in 2).
