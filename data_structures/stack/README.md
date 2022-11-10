@@ -1,10 +1,12 @@
 # Table of content:
+
 - Introduction
 - Real world application
 - How the algorithm works
 - Analysis
 
 ## Introduction
+
 A stack is a data structure which contains an ordered set of data.
 
 Stacks provide three methods for interaction:
@@ -14,8 +16,10 @@ Stacks provide three methods for interaction:
 - Peek - returns data from the “top” of the stack without removing it
 
 ### Real world examples:
+
 Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
 <br>
+
 - Each plate has a weight (the data). The first plate you add, or push, onto the floor is both the bottom and top of the stack. Each weight added becomes the new top of the stack.
 
 - At any point, the only weight you can remove, or pop, from the stack is the top one. You can peek and read the top weight without removing it from the stack.
@@ -34,6 +38,10 @@ Depending on the implementation, the top of the stack is equivalent to the head 
 A constraint that may be placed on a stack is its size. This is done to limit and quantify the resources the data structure will take up when it is “full.”
 
 Attempting to push data onto an already full stack will result in a stack overflow. Similarly, if you attempt to pop data from an empty stack, it will result in a stack underflow.
+
+### Python implementation
+
+[You can see my python implementation in here](./stack.py)
 
 ### Analysis of Stack Operations (Array based stack):
 

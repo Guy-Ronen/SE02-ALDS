@@ -1,6 +1,6 @@
 def bfs(visited, graph, node):
-    visited = [] # List to keep track of visited nodes.
-    queue = []     #Initialize a queue
+    visited = []
+    queue = []
 
     visited.append(node)
     queue.append(node)

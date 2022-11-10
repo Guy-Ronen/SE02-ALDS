@@ -19,6 +19,9 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 
 ![insertion_sort](insertion_sort.png)
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/)_</small>
+
+### Python implementation
+[You can see my python implementation in here](./insertion_sort.py)
 #### Analysis
 The worst-case (and average-case) complexity of the insertion sort algorithm is `O(n^2)`.
 

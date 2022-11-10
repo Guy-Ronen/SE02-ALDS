@@ -11,7 +11,6 @@ def bfs(root_node, goal_value):
     if current_node.value == goal_value:
       return current_path
     
-    # Add the child paths to the frontier below
     for child in current_node.children:
       new_path = current_path[:]
       new_path.append(child)

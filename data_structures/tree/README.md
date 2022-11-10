@@ -1,8 +1,10 @@
 # Table of content:
- - Introduction
- - Tree varietals
- - Breadth-first search vs. depth-first search
- - Analysis
+
+- Introduction
+- Tree varietals
+- Breadth-first search vs. depth-first search
+- Analysis
+
 ## Introduction
 
 Trees are an essential data structure for storing hierarchical data with a directed flow.
@@ -17,6 +19,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - `level:` The height or depth of the tree. Root nodes are at level 1, their children are at level 2, and so on.
 
 ### Tree varietals
+
 - Trees come in various shapes and sizes depending on the dataset modeled.
   Some are wide, with parent nodes referencing many child nodes.
 - Some are deep, with many parent-child relationships.
@@ -24,7 +27,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - Each time we move from a parent to a child, we’re moving down a level. Depending on the orientation we refer to this as the depth (counting levels down from the root node) or height (counting levels up from a leaf node).
 
 ![tree](tree.png)
-<small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))_</small>
+<small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data*structure))*</small>
 
 #### Breadth-first search vs. depth-first search
 
@@ -33,6 +36,10 @@ Each approach has unique characteristics but the process for each one is almost 
 - The queue and the stack are the two data structures that can be used for storing nodes in a search frontier. A queue follows “First In First Out” (FIFO) behavior, where the order the data goes in the queue is the order it leaves the queue. This equates to any line you may have stood on to wait for the bus or to grab a cup of coffee.
 
 - A stack follows “Last In First Out” (LIFO) behavior which means that the most recent data added will be the first to leave. To get to a book at the bottom of a stack of books you must first remove the books that were more recently placed in the stack.
+
+### Python implementation
+
+[You can see my python implementation in here](./tree.py)
 
 ### Analysis (Binary tree)
 

@@ -31,6 +31,8 @@ Compare the elements at _**left_index**_ and _**right_index**_. The smaller of t
 ![merge_sort](merge_sort.png)
 <small>_Photo curtesy of: [Bmu Verlag](https://bmu-verlag.de/mergesort-ein-effizienter-sortieralgorithmus/)_</small>
 
+### Python implementation
+[You can see my python implementation in here](./merge_sort.py)
 #### Analysis
 
 Merge sort was unique for its time in that the best, worst, and average time complexity are all the same: Θ`(N*log(N))`.

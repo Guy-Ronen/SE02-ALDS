@@ -1,4 +1,5 @@
 ## Table of content:
+
 - Introduction
 - Real world application
 - How the algorithm works
@@ -6,6 +7,7 @@
 - Analysis
 
 ## Introduction
+
 A queue is a data structure which contains an ordered set of data.
 
 Queues provide three methods for interaction:
@@ -25,6 +27,7 @@ _The first person in the queue is the first to be served. Queues are a First In,
 
 ![queue](queue.png)
 <small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/queue-data-structure/)_</small>
+
 ### How the algorithm works
 
 Queues can be implemented using a linked list as the underlying data structure. The front of the queue is equivalent to the head node of a linked list and the back of the queue is equivalent to the tail node.
@@ -35,6 +38,10 @@ Since operations are only allowed to affect the front or back of the queue, any 
 One constraint that may be placed on a queue is its length. If a queue has a limit on the amount of data that can be placed into it, it is considered a bounded queue.
 
 Similar to stacks, attempting to enqueue data onto an already full queue will result in a queue overflow. If you attempt to dequeue data from an empty queue, it will result in a queue underflow.
+
+### Python implementation
+
+[You can see my python implementation in here](./queue.py)
 
 #### Analysis of Queue Operations(Array based Queue):
 

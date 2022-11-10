@@ -11,6 +11,9 @@ One of the Most fundamental data structure, the base of other other data structu
 <small>_Photo curtesy of: [Lucas Magnum (medium)](https://lucasmagnum.medium.com/sidenotes-array-abstract-data-type-data-structure-b154140c8305)_</small>
 The array main advatnage is tha ability to read data fast, takes only 'one step'. The disadvantage is that an array is static and not dynamic.
 
+### Python implementation
+[You can see my python implementation in here](./array.py)
+
 # Analysis
 - Read: O(1)
 - Travers: O(n) 

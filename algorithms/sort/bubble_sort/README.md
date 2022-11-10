@@ -25,6 +25,9 @@ The process repeats until the largest element makes its way to the last index of
 
 ![bubble_sort](bubble_sort1.png)
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/)_</small>
+
+### Python implementation
+[You can see my python implementation in here](./bubble_sort.py)
 ### Analysis
 
 Given a moderately unsorted data-set, bubble sort requires multiple passes through the input before producing a sorted list. Each pass through the list will place the next largest value in its proper place.

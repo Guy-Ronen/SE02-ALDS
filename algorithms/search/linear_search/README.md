@@ -11,6 +11,9 @@ At each step, it compares the element at the index to the elememt we want to fin
 
 ![linear_search](linear_search.webp)
 <small>_Photo curtesy of: [Simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial/linear-search-algorithm)_</small>
+
+### Python implementation
+[You can see my python implementation in here](./linear_search.py)
 ## Analysis
 
 - Best case: We found the array at the first try - _O(1)_

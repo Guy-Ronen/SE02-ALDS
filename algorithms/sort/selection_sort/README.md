@@ -22,6 +22,9 @@ At each step, the size of sorted sub-array increases by 1 and size of unsorted s
 
 ![selection_sort](selection_sort.png)
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/)_</small>
+
+### Python implementation
+[You can see my python implementation in here](./selection_sort.py)
 #### Analysis
 
 The time-complexity of finding the smallest element in a list of n elements is `O(n)`. This is constant for all worst case, average case and best case.

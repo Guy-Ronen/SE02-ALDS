@@ -8,6 +8,9 @@ DFS stands for depth-first search. The algorithm starts from the root node of th
 
 ![graph_dfs](graph_dfs.jpeg)
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)_</small>
+
+### Python implementation
+[You can see my python implementation in here](./graph_dfs.py)
 #### Analysis
 
 Similar to that of BFS time complexity of DFS depends upon the data structure used to store the graph. If it's an adjacency list, then the time complexity is O(V + E); otherwise, if it's an adjacency matrix, the time complexity is O(V ^ 2). 

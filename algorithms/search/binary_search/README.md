@@ -28,6 +28,9 @@ If left > right end - Element is not in the array.
 ![binary_search](binary_search.png)
 <small>_Photo curtesy of: [Digital Ocean](https://www.digitalocean.com/community/tutorials/js-linear-vs-binary-search)_</small>
 
+### Python implementation
+[You can see my python implementation in here](./binary_search.py)
+
 ### Analysis
 Best case: We find element at the first midpoint - _O(1)_
 Worst case: We didnt find the element, so we keep searching at every iteration at only half the previous one.
