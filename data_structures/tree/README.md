@@ -29,7 +29,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 ![tree](tree.png)
 <small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data*structure))*</small>
 
-#### Breadth-first search vs. depth-first search
+#### Tree Traversal: Breadth-first search vs. depth-first search
 
 Each approach has unique characteristics but the process for each one is almost exactly the same. The only difference in their approach is how they store the nodes that need to be searched next. These nodes are known as the frontier.
 

@@ -1,9 +1,6 @@
 # Table of content:
 
-- Introduction
-- Real world application
-- How the algorithm works
-- Analysis
+[TOC]
 
 ## Introduction
 
@@ -15,7 +12,7 @@ Stacks provide three methods for interaction:
 - Pop - returns and removes data from the “top” of the stack
 - Peek - returns data from the “top” of the stack without removing it
 
-### Real world examples:
+## Real world examples:
 
 Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
 <br>
@@ -29,7 +26,7 @@ Stacks mimic a physical “stack” of objects. Consider a set of gym weights:
 ![stack](stack.webp)
 <small>_Photo curtesy of: [Progamiz](https://www.programiz.com/dsa/stack)_</small>
 
-### How the algorithm works:
+## How the algorithm works:
 
 Stacks can be implemented using a linked list as the underlying data structure because it’s more efficient than a list or array.
 
@@ -39,11 +36,11 @@ A constraint that may be placed on a stack is its size. This is done to limit an
 
 Attempting to push data onto an already full stack will result in a stack overflow. Similarly, if you attempt to pop data from an empty stack, it will result in a stack underflow.
 
-### Python implementation
+## Python implementation
 
 [You can see my python implementation in here](./stack.py)
 
-### Analysis of Stack Operations (Array based stack):
+## Analysis
 
 - Insert: O(1)
 - Delete: O(1)

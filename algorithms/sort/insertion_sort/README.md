@@ -1,7 +1,5 @@
 # Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
+[TOC]
 ### Introduction
 
 Insertion sort is one of the intutive sorting algorithm and is based on one assumption that a single element is always sorted.
@@ -10,7 +8,7 @@ Hence, the first element of array forms the sorted subarray while the rest creat
 
 In each iteration, we extend the sorted subarray while shrinking the unsorted subarray.
 
-#### How the algorithm works
+### How the algorithm works
 
 - Begin with a list of unsorted elements.
 - Iterate through the list of unsorted elements, from the first item to last.
@@ -22,7 +20,7 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 
 ### Python implementation
 [You can see my python implementation in here](./insertion_sort.py)
-#### Analysis
+### Analysis
 The worst-case (and average-case) complexity of the insertion sort algorithm is `O(n^2)`.
 
 Meaning that, in the worst case, the time taken to sort a list is proportional to the square of the number of elements in the list.

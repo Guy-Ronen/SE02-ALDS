@@ -1,4 +1,5 @@
 # Table of content:
+[TOC]
  - Introduction
  - Analysis
 
@@ -12,7 +13,7 @@ BFS stands for breadth-first search. It starts from the root of the given graph 
 ### Python implementation
 [You can see my python implementation in here](./graph_bfs.py)
 
-#### Analysis
+### Analysis
 The time complexity of BFS depends upon the data structure used to store the graph.
 
 If, for example, an adjacency list is used to store the graph.
