@@ -1,7 +1,5 @@
 # Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
+[TOC]
 
 ### Introduction
 Bubble sort is an introductory sorting algorithm that iterates through a list and compares pairings of adjacent elements.

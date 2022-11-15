@@ -1,6 +1,5 @@
 # Table of content:
- - Introduction
- - Analysis
+[TOC]
 
 ### Introduction
 Array is a data structure consisting of a collection of elements, each identified by an Index, which can be computed by a mathematical formula. 
@@ -14,7 +13,7 @@ The array main advatnage is tha ability to read data fast, takes only 'one step'
 ### Python implementation
 [You can see my python implementation in here](./array.py)
 
-# Analysis
+### Analysis
 - Read: O(1)
 - Travers: O(n) 
 - Insert: O(n)

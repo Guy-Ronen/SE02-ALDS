@@ -1,7 +1,5 @@
 # Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
+[TOC]
 
 ### Introduction
 
@@ -33,7 +31,7 @@ Compare the elements at _**left_index**_ and _**right_index**_. The smaller of t
 
 ### Python implementation
 [You can see my python implementation in here](./merge_sort.py)
-#### Analysis
+### Analysis
 
 Merge sort was unique for its time in that the best, worst, and average time complexity are all the same: Θ`(N*log(N))`.
 This means an almost-sorted list will take the same amount of time as a completely out-of-order list.

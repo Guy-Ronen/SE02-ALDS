@@ -1,9 +1,7 @@
 # Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
+[TOC]
 
-# Introduction
+## Introduction
 Linear search is an algoritem we can use to search for an element through an array.
 
 ## How the algorithm works
@@ -12,7 +10,7 @@ At each step, it compares the element at the index to the elememt we want to fin
 ![linear_search](linear_search.webp)
 <small>_Photo curtesy of: [Simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial/linear-search-algorithm)_</small>
 
-### Python implementation
+## Python implementation
 [You can see my python implementation in here](./linear_search.py)
 ## Analysis
 

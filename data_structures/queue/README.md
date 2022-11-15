@@ -1,12 +1,8 @@
 ## Table of content:
 
-- Introduction
-- Real world application
-- How the algorithm works
-- Constraints
-- Analysis
+[TOC]
 
-## Introduction
+### Introduction
 
 A queue is a data structure which contains an ordered set of data.
 
@@ -43,7 +39,7 @@ Similar to stacks, attempting to enqueue data onto an already full queue will re
 
 [You can see my python implementation in here](./queue.py)
 
-#### Analysis of Queue Operations(Array based Queue):
+### Analysis
 
 - Insert: O(1)
 - Delete: O(1)

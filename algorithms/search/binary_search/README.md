@@ -1,13 +1,11 @@
-# Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
-# Introduction
+## Table of contents:
+[TOC]
+### Introduction
 Binary search is an algorithm we can use to find an element inside of an array. Unlike linear search, it requires a special condition be met beforehand, but it's so much more efficient if that condition is, in fact, met.
 
 We want to reduce the size of the search area by half each time in order to find a target number. **We can only leverage the power of eliminating half of the elements without even looking at them if the array is sorted.**
 
-## How the algorithm works
+### How the algorithm works
 1. Create 3 different variables:
    1. Left index
    2. Right index

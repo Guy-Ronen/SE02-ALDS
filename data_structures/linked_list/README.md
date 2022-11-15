@@ -1,9 +1,6 @@
 # Table of content:
 
-- Introduction
-- Use cases
-- Advantages
-- Analysis
+[TOC]
 
 ## Introduction
 
@@ -14,20 +11,20 @@ The list is terminated when a node’s link is `null`. This last node is called 
 ![linked_list](linked_list.png)
 <small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)_</small>
 
-### Use Cases
+## Use Cases
 
 One example can be a one-way air travel itinerary. The trip could involve traveling through several airports (nodes) connected by air travel segments (links). In this example, the initial departure city is the head node and the final arrival city is the tail node.
 
-### Advantages
+## Advantages
 
 Since the nodes use links to denote the next node in the sequence, the nodes are not required to be sequentially located in memory.
 These links also allow for quick insertion and removal of nodes.
 
-### Python implementation
+## Python implementation
 
 [You can see my python implementation in here](./linked_list.py)
 
-### Analysis
+## Analysis
 
 - Adding nodes: Adding a new node to the beginning of the list requires you to link your new node to the current head node. This way, you maintain your connection with the following nodes in the list. This has a time-complexity of `O(1)`
 

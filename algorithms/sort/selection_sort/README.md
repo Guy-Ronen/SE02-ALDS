@@ -1,7 +1,5 @@
 # Table of content:
-- Introduction
-- How the algorithm works
-- Analysis
+[TOC]
 
 ### Introduction
 
@@ -15,7 +13,7 @@ In sorted sub-array, all elements are in sorted order and are less than all elem
 
 Selection Sort is as follows:
 
-#### How the algorithm works
+### How the algorithm works
 At the beginning, the size of sorted sub-array is 0 and the size of unsorted sub-array is n.
 
 At each step, the size of sorted sub-array increases by 1 and size of unsorted sub-array decreases by 1.
@@ -25,7 +23,7 @@ At each step, the size of sorted sub-array increases by 1 and size of unsorted s
 
 ### Python implementation
 [You can see my python implementation in here](./selection_sort.py)
-#### Analysis
+### Analysis
 
 The time-complexity of finding the smallest element in a list of n elements is `O(n)`. This is constant for all worst case, average case and best case.
 
