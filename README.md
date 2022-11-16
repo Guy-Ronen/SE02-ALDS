@@ -31,4 +31,4 @@ A link to my github repo: https://github.com/Guy-Ronen/SE02-ALDS
         - <a href='algorithms/sort/bubble_sort/README.md'> Bubble Sort </a>
         - <a href='algorithms/sort/insertion_sort/README.md'> Insertion Sort </a>
         - <a href='algorithms/sort/merge_sort/README.md'> Merge Sort </a>
-        - <a href='algorithms/sort/quick_sort/README.md'> Quick Sort </a>
+        - <a href='algorithms/sort/selection_sort/README.md'> Selection Sort </a>
