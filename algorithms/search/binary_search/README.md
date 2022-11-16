@@ -30,6 +30,8 @@ If left > right end - Element is not in the array.
 [You can see my python implementation in here](./binary_search.py)
 
 ### Analysis
-Best case: We find element at the first midpoint - _O(1)_
+![binary_search_draw](./binary_search_draw.png)
+
+Best case: We find element at the first midpoint - `O(1)`
 Worst case: We didnt find the element, so we keep searching at every iteration at only half the previous one.
-In an array of 16 -> 8 -> 4 -> 2 -> 1 - 4 iteration for 16 elements results in logarithmic time complexity- _O(logn)_
+In an array of 16 -> 8 -> 4 -> 2 -> 1 => **4** iteration for 16 elements results in logarithmic time complexity- `O(logn)`

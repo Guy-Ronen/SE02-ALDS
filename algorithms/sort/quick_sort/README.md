@@ -21,9 +21,9 @@ Once we have all items paritioned, all items are actully sorted.
 [You can see my python implementation in here](./quick_sort.py)
 
 ## Analysis
-In an evenly distributed paritions to their sub-arrays - we traverse the element n iterations * `log(N)` levels to given n size array (because we always split the array in 2).
+In an evenly distributed paritions to their sub-arrays - we traverse the element `n` iterations * `log(N)` levels to given n size array (because we always split the array in 2).
 That would result in a time complexity of `O(nlog(n))`
 
 In the worst case, we always pick either the smallest or largest element in each iteration, which will result in all remaining elements to split into the same subarray and result in `n` number on levels for an element for an element size of n. 
 
-That will result in time complexity of n iteration over n level = `O(n^2)`
+That will result in time complexity of `n` iteration over `n` levels => `O(n^2)`

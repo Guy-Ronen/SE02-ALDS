@@ -24,10 +24,13 @@ At each step, the size of sorted sub-array increases by 1 and size of unsorted s
 ### Python implementation
 [You can see my python implementation in here](./selection_sort.py)
 ### Analysis
+![selection_sort_draw](./selection_sort_draw.png)
 
-The time-complexity of finding the smallest element in a list of n elements is `O(n)`. This is constant for all worst case, average case and best case.
+The time-complexity of finding the smallest element in a list of n elements is `O(n)`. 
 
-Hence, the time complexity of Selection Sort is `O(n^2)`.
+**This is true for all worst case, average case and best case.**
+
+therefore, the time complexity in order to find the smallest number at every interation of n elements of in selection sort is `(1+2+...+n−2+n−1)` which will result in time-complexity of `O(n^2)`.
 
 The space complexity of Selection Sort is `O(1)`. This is because we use only constant extra space such as:
 
@@ -35,23 +38,3 @@ The space complexity of Selection Sort is `O(1)`. This is because we use only co
   One variable to keep track of smallest element in unsorted array.
 
 Selection Sort has an optimal space-complexity as the memory requirements remain same for every input.
-
-**Example:**
-Unsorted list:`[5 2 1 4 3]`
-
-- 1st iteration:
-  Smallest = 5 - 2 < 5, smallest = 2 - 1 < 2, smallest = 1 - 4 > 1, smallest = 1 - 3 > 1, smallest = 1 - Swap 5 and 1 -> `[1 2 5 4 3]`
-  <br>
-- 2nd iteration:
-  Smallest = 2 - 2 < 5, smallest = 2 - 2 < 4, smallest = 2 - 2 < 3, smallest = 2 - No Swap ->`[1 2 5 4 3]`
-  <br>
-
-- 3rd iteration:
-  Smallest = 5 - 4 < 5, smallest = 4 - 3 < 4, smallest = 3 - Swap 5 and 3 -> `[1 2 3 4 5]`
-  <br>
-
-- 4th iteration:
-  Smallest = 4 - 4 < 5, smallest = 4 - No Swap -> `[1 2 3 4 5]`
-  <br>
-- Finally,
-  the sorted list is `[1 2 3 4 5]`

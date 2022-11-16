@@ -12,5 +12,8 @@ Frontier nodes stored in a stack create the deep dive of a depth-first search. N
 ### Python implementation
 [You can see my python implementation in here](./tree_dfs.py)
 ### Analysis
+![tree_dfs_draw](./tree_dfs_draw.png)
 
-Depth-First Search has a time complexity of O(n) where n is the number of nodes in the tree. In the worst case, we will examine every node of a tree.
+- Best Case: Depth-First Search has a time complexity of `O(1)` if the first node was the target. 
+
+- Worst Case: Depth-First Search has a time complexity of `O(n)` where n is the number of nodes in the tree. In the worst case, we will examine every node of a tree.

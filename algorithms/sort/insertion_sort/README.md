@@ -21,45 +21,11 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 ### Python implementation
 [You can see my python implementation in here](./insertion_sort.py)
 ### Analysis
-The worst-case (and average-case) complexity of the insertion sort algorithm is `O(n^2)`.
+![insertion_sort_draw](./insertion_sort_draw.png)
 
-Meaning that, in the worst case, the time taken to sort a list is proportional to the square of the number of elements in the list.
+Insertion sort performs two operations:
+1. It scans through the list. 
+2. It's comparing each pair of elements, and it swaps elements if they are out of order.
+Each operation contributes to the running time of the algorithm. If the input array is already in sorted order, insertion sort compares O(n) elements and performs no swaps.Therefore, in the best case, insertion sort runs in `O(n)` time.
 
-The best-case time complexity of insertion sort algorithm is O(n) time complexity. In this is the case when the list is already in the correct order. There’s only one iteration in this case since the inner loop operation is trivial when the list is already in order.
-
-**Example**
-Unsorted list: `[2,13,5,18,14]`
-
-- 1st iteration:
-
-      Key = a[2] = 13
-
-      a[1] = 2 < 13
-
-      Swap, no swap -> `[2,13,5,18,14]`
-
-  <br>
-
-- 2nd iteration:
-  Key = a[3] = 5
-  a[2] = 13 > 5
-  Swap 5 and 13 -> `[2,5,13,18,14]` - Next, a[1] = 2 < 13
-  Swap, no swap -> `[2,5,13,18,14]`
-  <br>
-- 3rd iteration:
-  Key = a[4] = 18
-  a[3] = 13 < 18,
-  a[2] = 5 < 18,
-  a[1] = 2 < 18
-  Swap, no swap -> `[2,5,13,18,14]`
-  <br>
-- 4th iteration:
-  Key = a[5] = 14
-  a[4] = 18 > 14
-  Swap 18 and 14 -> `[2,5,13,14,18]` - Next, a[3] = 13 < 14,
-  a[2] = 5 < 14,
-  a[1] = 2 < 14
-  So, no swap -> `[2,5,13,14,18]`
-  <br>
-- Finally,
-  the sorted list is `[2,5,13,14,18]`
+- The worst case for insertion sort will occur when the input list is in decreasing order. To insert the last element, we need at most `n-1` comparisons and at most `n-1` swaps. To insert the second to last element, we need at most `n-2` comparisons and at most `n-2` swaps, and so on. The number of operations will be therefore `2×(1+2+...+n−2+n−1)` - which will result in a worst (and average) time complexity of `O(n^2)`.

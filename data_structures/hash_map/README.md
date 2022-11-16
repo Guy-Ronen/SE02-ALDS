@@ -8,15 +8,9 @@ When talking about a map we describe the inputs as the keys to the map. The outp
 
 In order for a relationship to be a map, every key that is used can only be the key to a single value. There doesn’t need to be a value for every possible key, there just can’t be more than one value for a given key.
 
-## Methodology
-
 In the case of a map between two things, we don’t really care about the exact sequence of the data. We only care that a given input, when fed into the map, gives the accurate output.
 
-Developing a data structure that performs this is tricky because computers care much more about values than relationships.
-
-## How the algorithm works
-
-We perform this trick using a structure that our computer is already familiar with, an array. An array uses indices to keep track of values in memory, so we’ll need a way of turning each key in our map to an index in our array.
+We perform this with an array. An array uses indices to keep track of values in memory, so we’ll need a way of turning each key in our map to an index in our array.
 
 ![hash_map](hash_map.png)
 <small>_Photo curtesy of: [javapoint](https://www.javatpoint.com/hash-table)_</small>
@@ -37,15 +31,33 @@ Hash functions might produce the same hash for two different keys. This is known
 
 \*There are more sophisticated ways to find the next address after a hash collision, although anything too calculation-intensive would negatively affect a hash table’s performance.
 
+## Possible operations
+Possible operations you can perform on an hashmap: 
+- Insertion
+- Traversal
+- Deletion
+- Searching
+
+## Advantages
+- Hashmaps allow insertion of key-value pair
+- Hashmaps is a fail-fast iterator
+- Hashmap has faster acess of elements
+## Disadvantages
+- Hashmap has a potential of collision when 2 distinct keys generate the same hash code.
+- Occasionally requires resizing when the original size of the hashmap buckets are full.
+
+## Use cases
+- A phonebook by using key-value pair of Name - Number.
+- Dictionaries which words are mapped to values - Meaning, Description of word.
 ## Python implementation
 
 [You can see my python implementation in here](./hash_map.py)
 
-## Analysis
+## Time complexities
 
+- Access: O(1) / O(n)
+- Search: O(1) / O(n)
 - Insert: O(1) / O(n)
 - Delete: O(1) / O(n)
-- Search: O(1) / O(n)
-- Read: O(1) / O(n)
 
 The reason there are two option for the big O in the operations is beacuse the big O depend on the implementation of the hash function. In case there are no collusions all the operation would take O(1). In case there would be collision all of the operation would take O(n) when N is the number of elements that had collusion in on bucket of the hash table.

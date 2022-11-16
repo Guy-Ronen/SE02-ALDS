@@ -13,9 +13,10 @@ At each step, it compares the element at the index to the elememt we want to fin
 ## Python implementation
 [You can see my python implementation in here](./linear_search.py)
 ## Analysis
+![linear_search_draw](./linear_search_draw.png)
 
-- Best case: We found the array at the first try - _O(1)_
-- Worst case: We traversed through the entire array and couldnt find the element. in an array of 5 elemets it will be:
-  5 -> 4 -> 3 -> 2 -> 1.
+- Best case: We found the array at the first try - `O(1)`
+- Worst case: We traversed through the entire array and couldnt find the element. in an array of 8 elemets it will be:
+  8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 => **8**
 
-5 iteration for a 5 size array results in a linear time complexity - _O(n)_
+5 iteration for a 5 size array results in a linear time complexity - `O(n)`

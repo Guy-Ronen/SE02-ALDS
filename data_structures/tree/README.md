@@ -1,10 +1,5 @@
 # Table of content:
-
-- Introduction
-- Tree varietals
-- Breadth-first search vs. depth-first search
-- Analysis
-
+[TOC]
 ## Introduction
 
 Trees are an essential data structure for storing hierarchical data with a directed flow.
@@ -18,31 +13,66 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - `leaf:` Nodes which have no children.
 - `level:` The height or depth of the tree. Root nodes are at level 1, their children are at level 2, and so on.
 
-### Tree varietals
-
-- Trees come in various shapes and sizes depending on the dataset modeled.
-  Some are wide, with parent nodes referencing many child nodes.
-- Some are deep, with many parent-child relationships.
-  Trees can be both wide and deep, but each node will only ever have at most one parent; otherwise, they wouldn’t be trees!
-- Each time we move from a parent to a child, we’re moving down a level. Depending on the orientation we refer to this as the depth (counting levels down from the root node) or height (counting levels up from a leaf node).
-
 ![tree](tree.png)
-<small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data*structure))*</small>
+<small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))_</small>
 
-#### Tree Traversal: Breadth-first search vs. depth-first search
+### Types of Trees data structures
+- General Tree: a general tree has no restrictions. A parent node can has any number of child nodes
+- Binary Tree: every node can has two nodes at all. One left tree and one right tree.
+- Binary Search Tree: is an optimised binary tree. Are used for various sort and search methods. The tree will sort the items.
+Balanced Tree / AVL Tree: is an optimised binary search tree. The left and right sub-tree only differs by one or are equal. The tree will always be balanced.
 
-Each approach has unique characteristics but the process for each one is almost exactly the same. The only difference in their approach is how they store the nodes that need to be searched next. These nodes are known as the frontier.
+## Possible operations
+Possible operations you can perform on an tree: 
+- Traversal
+- Insertion
+- Deletion
+- Searching
 
-- The queue and the stack are the two data structures that can be used for storing nodes in a search frontier. A queue follows “First In First Out” (FIFO) behavior, where the order the data goes in the queue is the order it leaves the queue. This equates to any line you may have stood on to wait for the bus or to grab a cup of coffee.
+## Advantages 
+- Trees provide hierarchical representation for the data.
+- Trees are dynamic in nature so the number of nodes are not limited.
+- Insertion and deletion in a tree can be done in moderate time.
 
-- A stack follows “Last In First Out” (LIFO) behavior which means that the most recent data added will be the first to leave. To get to a book at the bottom of a stack of books you must first remove the books that were more recently placed in the stack.
+## Disadvantages
+- Some trees can only be stored using sequential or chained storage.
 
-### Python implementation
+## Use cases
+- Trees can be used to store data which are in hierarchical form.
+- Different types of trees are used in various fields like in databases, computer graphics, computer networks.
+- Tree data structure are used by operating system to manage file directory.
+
+## Python implementation
 
 [You can see my python implementation in here](./tree.py)
 
-### Analysis (Binary tree)
+## Time complexities
 
-- Insert: For inserting element as left child of 2, we have to traverse all elements. Therefore, insertion in binary tree has worst case complexity of O(n).
-- Delete: For deletion of element 2, we have to traverse all elements to find 2 (assuming we do breadth first traversal). Therefore, deletion in binary tree has worst case complexity of O(n).
-- Search: For searching element 2, we have to traverse all elements (assuming we do breadth first traversal). Therefore, searching in binary tree has worst case complexity of O(n).
+#### Time Complexity of a Binary Tree
+
+The worst case of a binary tree is `O(n)`
+
+The reason for that is that all children can be left or right children. That would look like the following:
+
+To search for element `n`. It has to traverse to all elements. The same is happening for inserting `n` as a child and deleting the element `n`.
+
+#### Time Complexity of Binary Search Tree
+
+The worst case for a binary search tree is `O(n)` for searching, deleting and inserting. It is the same reason as for the time complexity of a binary tree. 
+If all children are left children, it has to iterate through all levels.
+
+The only different is that only has to transfer through the height of the tree, because in a binary search tree, the left side is smaller then the parent and the right side is bigger then the parent. 
+
+That means it would iterate to the right location in every iteration. 
+
+So the worst case in general is `O(h)` where `h` is the height of the tree.
+
+#### Time Complexity of AVL/ Height Balanced Tree
+
+The worst case of a AVL tree is `O(log n)` for searching, deleting and inserting -  because the AVL tree is always balanced. 
+
+It is balanced if every left and right sub-trees only differ by 1 or are equal. If that is not the case the tree will change some node positions by routing them.
+
+The tree will be balanced after every new insert. That means we are performing a normal binary search tree insert and afterwards are go back up the ancestors and are checking the the left and right sub-tree height. 
+
+If not balanced there will be a rotation of the nodes take place (left left case, left right case, right right case or right left case).
