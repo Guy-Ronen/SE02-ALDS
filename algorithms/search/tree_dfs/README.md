@@ -1,5 +1,3 @@
-# Table of content
-[TOC]
 
 ### Introduction 
 A depth-first search is where you search deep into a branch and don’t move to the next one until you’ve reached the end.

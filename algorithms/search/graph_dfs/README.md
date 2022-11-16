@@ -1,6 +1,4 @@
-# Table of content:
 
-[TOC]
 
 ### Introduction
 

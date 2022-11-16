@@ -1,5 +1,3 @@
-# Table of content:
-[TOC]
 
 ### Introduction
 Bubble sort is an introductory sorting algorithm that iterates through a list and compares pairings of adjacent elements.
@@ -22,6 +20,7 @@ When a swap is made, we know the list is still unsorted. The outer loop will run
 The process repeats until the largest element makes its way to the last index of the list. The outer loop runs until no swaps are made within the inner loop.
 
 ![bubble_sort](bubble_sort1.png)
+
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/)_</small>
 
 ### Python implementation

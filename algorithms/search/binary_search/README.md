@@ -1,5 +1,4 @@
-## Table of contents:
-[TOC]
+
 ### Introduction
 Binary search is an algorithm we can use to find an element inside of an array. Unlike linear search, it requires a special condition be met beforehand, but it's so much more efficient if that condition is, in fact, met.
 

@@ -1,5 +1,3 @@
-# Table of content:
-[TOC]
 
 ### Introduction
 
@@ -19,6 +17,7 @@ At the beginning, the size of sorted sub-array is 0 and the size of unsorted sub
 At each step, the size of sorted sub-array increases by 1 and size of unsorted sub-array decreases by 1.
 
 ![selection_sort](selection_sort.png)
+
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/)_</small>
 
 ### Python implementation

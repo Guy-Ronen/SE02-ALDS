@@ -1,5 +1,3 @@
-# Table of content
-[TOC]
 ### Introduction
 A breadth-first search is when you inspect every node on a level starting at the top of the tree and then move to the next level. 
 

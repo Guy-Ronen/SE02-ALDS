@@ -1,5 +1,3 @@
-# Table of content:
-[TOC]
 
 ## Introduction
 Linear search is an algoritem we can use to search for an element through an array.

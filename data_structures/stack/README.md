@@ -1,6 +1,3 @@
-# Table of content:
-
-[TOC]
 
 ## Introduction
 
@@ -17,6 +14,7 @@ Depending on the implementation, the top of the stack is equivalent to the head 
 This is a Last In, First Out or LIFO structure. A less frequently used term is First In, Last Out, or FILO.
 
 ![stack](stack.webp)
+
 <small>_Photo curtesy of: [Progamiz](https://www.programiz.com/dsa/stack)_</small>
 
 ## Possible operations

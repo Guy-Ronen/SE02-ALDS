@@ -14,6 +14,7 @@ Since operations are only allowed to affect the front or back of the queue, any 
 
 _The first person in the queue is the first to be served. Queues are a First In, First Out or FIFO structure._
 ![queue](queue.png)
+
 <small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/queue-data-structure/)_</small>
 
 ### Possible operations

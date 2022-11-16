@@ -1,5 +1,3 @@
-# Table of content:
-[TOC]
 ## Introduction
 
 Trees are an essential data structure for storing hierarchical data with a directed flow.
@@ -14,6 +12,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - `level:` The height or depth of the tree. Root nodes are at level 1, their children are at level 2, and so on.
 
 ![tree](tree.png)
+
 <small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))_</small>
 
 ### Types of Trees data structures

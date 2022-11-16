@@ -1,7 +1,4 @@
-# Table of content:
-[TOC]
- - Introduction
- - Analysis
+
 
 ### Introduction
 

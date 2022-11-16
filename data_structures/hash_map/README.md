@@ -1,5 +1,4 @@
-# Table of content:
-[TOC]
+
 ## Introduction
 
 Being a map means relating two pieces of information, but a map also has one further requirement.
@@ -13,6 +12,7 @@ In the case of a map between two things, we don’t really care about the exact 
 We perform this with an array. An array uses indices to keep track of values in memory, so we’ll need a way of turning each key in our map to an index in our array.
 
 ![hash_map](hash_map.png)
+
 <small>_Photo curtesy of: [javapoint](https://www.javatpoint.com/hash-table)_</small>
 
 ## Hash Functions

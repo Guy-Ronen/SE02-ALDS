@@ -1,5 +1,4 @@
-# Table of content:
-[TOC]
+
 ### Introduction
 
 Insertion sort is one of the intutive sorting algorithm and is based on one assumption that a single element is always sorted.
@@ -16,6 +15,7 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 - If the current element is less than any of the previously listed elements, it is moved one position to the left.
 
 ![insertion_sort](insertion_sort.png)
+
 <small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/)_</small>
 
 ### Python implementation
