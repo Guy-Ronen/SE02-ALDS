@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Types of Trees data structures](#types-of-trees-data-structures)
+- [Possible Operations](#possible-operations)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Use Cases](#use-cases)
+- [Python Implementation](#python-implementation)
+- [Time Complexities](#time-complexities)
 ## Introduction
 
 Trees are an essential data structure for storing hierarchical data with a directed flow.
@@ -21,7 +31,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - Binary Search Tree: is an optimised binary tree. Are used for various sort and search methods. The tree will sort the items.
 Balanced Tree / AVL Tree: is an optimised binary search tree. The left and right sub-tree only differs by one or are equal. The tree will always be balanced.
 
-## Possible operations
+## Possible Operations
 Possible operations you can perform on an tree: 
 - Traversal
 - Insertion
@@ -36,16 +46,16 @@ Possible operations you can perform on an tree:
 ## Disadvantages
 - Some trees can only be stored using sequential or chained storage.
 
-## Use cases
+## Use Cases
 - Trees can be used to store data which are in hierarchical form.
 - Different types of trees are used in various fields like in databases, computer graphics, computer networks.
 - Tree data structure are used by operating system to manage file directory.
 
-## Python implementation
+## Python Implementation
 
 [You can see my python implementation in here](./tree.py)
 
-## Time complexities
+## Time Complexities
 
 #### Time Complexity of a Binary Tree
 

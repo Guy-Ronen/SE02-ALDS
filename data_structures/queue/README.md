@@ -1,6 +1,12 @@
-## Table of content:
+# Table of Contents
 
-[TOC]
+- [Introduction](#introduction)
+- [Possible Operations](#possible-operations)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Use Cases](#use-cases)
+- [Python Implementation](#python-implementation)
+- [Time Complexities](#time-complexities)
 
 ### Introduction
 
@@ -17,7 +23,7 @@ _The first person in the queue is the first to be served. Queues are a First In,
 
 <small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/queue-data-structure/)_</small>
 
-### Possible operations
+### Possible Operations
 
 Queues provide three methods for interaction:
 
@@ -42,18 +48,18 @@ Maximum size of a queue must be defined prior.
 
 - Attempting to enqueue data onto an already full queue will result in a queue overflow. If you attempt to dequeue data from an empty queue, it will result in a queue underflow.
 
-### Use cases
+### Use Cases
 - ATM Booth Line
 - Ticket Counter Line
 - Key press sequence on the keyboard
 - CPU task scheduling
 - Waiting time of each customer at call centers.
 
-### Python implementation
+### Python Implementation
 
 [You can see my python implementation in here](./queue.py)
 
-### Time complexities
+### Time Complexities
 
 - Access: O(n)
 - Insert: O(1)

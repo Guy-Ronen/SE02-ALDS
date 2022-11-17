@@ -1,4 +1,12 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [Possible Operations](#possible-operations)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Use Cases](#use-cases)
+- [Python Implementation](#python-implementation)
+- [Time Complexities](#time-complexities)
 ### Introduction
 Array is a data structure consisting of a collection of elements, each identified by an Index, which can be computed by a mathematical formula. 
 An array is stored in contiguous memory blocks.
@@ -29,14 +37,14 @@ Possible operations you can perform on an array:
 - Insertion and deletion in an array is tricky as the array stores elements in continuous form.
 - Allocation exess memory than required may lead to memory wastage.
 
-### Use cases
+### Use Cases
 -  A class of students where every student is the same data-type holding the same information (such as name and average grade)
 - A catalog of product where is product has a name and a price. 
 
-### Python implementation
+### Python Implementation
 [You can see my python implementation in here](./array.py)
 
-### Time complexities
+### Time Complexities
 - Access: O(1)
 - Search: O(n) 
 - Insert: O(n)

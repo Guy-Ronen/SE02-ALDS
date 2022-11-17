@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Possible Operations](#possible-operations)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Use Cases](#use-cases)
+- [Python Implementation](#python-implementation)
+- [Time Complexities](#time-complexities)
+
 
 ## Introduction
 
@@ -17,7 +27,7 @@ This is a Last In, First Out or LIFO structure. A less frequently used term is F
 
 <small>_Photo curtesy of: [Progamiz](https://www.programiz.com/dsa/stack)_</small>
 
-## Possible operations
+## Possible Operations
 Stacks provide three methods for interaction:
 
 - Push - adds data to the “top” of the stack
@@ -49,11 +59,11 @@ It is used in many virtual machines like JVM.
 - The history of a web browser is stored in the form of a stack.
 - Call logs, E-mails, and Google photos in any gallery are also stored in form of a stack.
 - YouTube downloads and Notifications are also shown in LIFO format(the latest appears first).
-## Python implementation
+## Python Implementation
 
 [You can see my python implementation in here](./stack.py)
 
-## Time complexities
+## Time Complexities
 
 - Access: O(n)
 - Insert: O(1)

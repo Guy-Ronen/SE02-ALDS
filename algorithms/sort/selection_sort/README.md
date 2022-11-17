@@ -1,4 +1,9 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 ### Introduction
 
 The basic idea of Selection Sort is find the smallest element in the unsorted array and add it to the front of the array.

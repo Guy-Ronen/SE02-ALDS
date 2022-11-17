@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 
 ## Introduction
 Linear search is an algoritem we can use to search for an element through an array.
@@ -17,4 +23,4 @@ At each step, it compares the element at the index to the elememt we want to fin
 - Worst case: We traversed through the entire array and couldnt find the element. in an array of 8 elemets it will be:
   8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 => **8**
 
-5 iteration for a 5 size array results in a linear time complexity - `O(n)`
+8 iteration for a 8 size array results in a linear time complexity - `O(n)`

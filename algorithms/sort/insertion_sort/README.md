@@ -1,4 +1,9 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 ### Introduction
 
 Insertion sort is one of the intutive sorting algorithm and is based on one assumption that a single element is always sorted.

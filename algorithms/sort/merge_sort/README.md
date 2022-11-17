@@ -1,4 +1,9 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 ### Introduction
 
 Merge sort's strategy is to break the list-to-be-sorted into smaller parts, sometimes called a divide-and-conquer algorithm.

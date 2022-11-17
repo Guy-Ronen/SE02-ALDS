@@ -1,4 +1,9 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 ### Introduction
 Binary search is an algorithm we can use to find an element inside of an array. Unlike linear search, it requires a special condition be met beforehand, but it's so much more efficient if that condition is, in fact, met.
 

@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [Introduction](#introduction)
+- [How the algorithm works](#how-the-algorithm-works)
+- [Python implementation](#python-implementation)
+- [Analysis](#analysis)
 
 ### Introduction
 Bubble sort is an introductory sorting algorithm that iterates through a list and compares pairings of adjacent elements.

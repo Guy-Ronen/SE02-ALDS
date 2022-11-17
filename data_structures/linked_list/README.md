@@ -1,4 +1,12 @@
+# Table of Contents
 
+- [Introduction](#introduction)
+- [Possible Operations](#possible-operations)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Use Cases](#use-cases)
+- [Python Implementation](#python-implementation)
+- [Time Complexities](#time-complexities)
 ## Introduction
 
 The list is comprised of a series of nodes.
@@ -9,7 +17,7 @@ The list is terminated when a node’s link is `null`. This last node is called 
 
 <small>_Photo curtesy of: [Geeksforgeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)_</small>
 
-## Possible operations
+## Possible Operations
 Possible operations you can perform on a linked list: 
 - Traversal
 - Insertion
@@ -29,11 +37,11 @@ Possible operations you can perform on a linked list:
 
 One example can be a one-way air travel itinerary. The trip could involve traveling through several airports (nodes) connected by air travel segments (links). In this example, the initial departure city is the head node and the final arrival city is the tail node.
 
-## Python implementation
+## Python Implementation
 
 [You can see my python implementation in here](./linked_list.py)
 
-## Time complexities
+## Time Complexities
 
 - Insertion: Adding a new node to the beginning of the list requires you to link your new node to the current head node. This way, you maintain your connection with the following nodes in the list. This has a time-complexity of `O(1)`.
 

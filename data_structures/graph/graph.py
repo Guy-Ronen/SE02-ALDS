@@ -17,7 +17,6 @@ class Graph:
     while len(start) > 0:
       current_vertex = start.pop(0)
       seen[current_vertex] = True
-      print("Visiting " + current_vertex)
       if current_vertex == end_vertex:
         return True
       else:
