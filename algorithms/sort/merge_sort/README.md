@@ -13,7 +13,6 @@ In a divide-and-conquer algorithm, the data is continually broken down into smal
 Merge sort was the first of many sorts that use this strategy, and is still in use today in many different applications.
 
 ### How the algorithm works
-![merge_sort_draw](./merge_sort_draw.png)
 Merge sorting takes two steps: splitting the data into “runs” or smaller components, and the re-combining those runs into sorted lists (the “merge”).
 
 When splitting the data, we divide the input to our sort in half. We then recursively call the sort on each of those halves, which cuts the halves into quarters. This process continues until all of the lists contain only a single element. Then we begin merging.
@@ -36,7 +35,7 @@ Compare the elements at _**left_index**_ and _**right_index**_. The smaller of t
 ### Python implementation
 [You can see my python implementation in here](./merge_sort.py)
 ### Analysis
-
+![merge_sort_draw](./merge_sort_draw.png)
 Merge sort was unique for its time in that the best, worst, and average time complexity are all the same: `O(n*log(n))`.
 This means an almost-sorted list will take the same amount of time as a completely out-of-order list.
 This is acceptable because the worst-case scenario, where a sort could stand to take the most time, is as fast as a sorting algorithm can be.

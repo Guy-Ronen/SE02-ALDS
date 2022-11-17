@@ -9,13 +9,13 @@
 
 BFS stands for breadth-first search. It starts from the root of the given graph and then traverse all nodes at the current depth level before moving on to nodes at the next depth level.
 
-![graph_bfs](graph_bfs.png)
-<small>_Photo curtesy of: [freeCodeCamp](https://www.freecodecamp.org/news/breadth-first-search-a-bfs-graph-traversal-guide-with-3-leetcodeexamples/)_</small>
-
 ### How the algorithm works
 BFS selects a single node (initial or source point) in a graph and then visits all the nodes adjacent to the selected node. BFS accesses these nodes one by one.
 
 The visited and marked data is placed in a queue by BFS. A queue works on a first in first out basis. Hence, the element placed in the graph first is deleted first.
+
+![graph_bfs](graph_bfs.png)
+<small>_Photo curtesy of: [freeCodeCamp](https://www.freecodecamp.org/news/breadth-first-search-a-bfs-graph-traversal-guide-with-3-leetcodeexamples/)_</small>
 
 ### Python implementation
 [You can see my python implementation in here](./graph_bfs.py)

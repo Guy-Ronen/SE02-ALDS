@@ -9,14 +9,14 @@
 
 DFS stands for depth-first search. The algorithm starts from the root node of the graph and explores as far as possible along each branch, and then after going at the depth most point possible, it backtracks.
 
-![graph_dfs](graph_dfs.jpeg)
-<small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)_</small>
-
 ### How the algorithm works
 The algotithm picks a starting node and push all its adjacent nodes into a stack.
 Then, it pops a node from stack in order to select the next node to visit and pushes all its adjacent nodes into a stack.
 It repeats this process until the stack is empty. 
 However, it ensures that the nodes that are visited are marked. This prevents the algorithm from visiting the same node more than once.
+
+![graph_dfs](graph_dfs.jpeg)
+<small>_Photo curtesy of: [Hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)_</small>
 
 ### Python implementation
 
