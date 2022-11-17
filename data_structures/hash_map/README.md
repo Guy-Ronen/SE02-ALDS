@@ -33,7 +33,7 @@ A hash function takes a string (or some other type of data) as input and returns
 
 Hash functions might produce the same hash for two different keys. This is known as a hash collision. There are several strategies for resolving hash collisions:
 
-1. Separate chaining: The separate chaining strategy avoids collisions by updating the underlying data structure. Instead of an array of values that are mapped to by hashes, it could be an array of linked lists.
+1. Separate chaining - The separate chaining strategy avoids collisions by updating the underlying data structure. Instead of an array of values that are mapped to by hashes, it could be an array of linked lists.
 
 2. Open addressing - In open addressing we stick to the array as our underlying data structure, but we continue looking for a new index to save our data if the first result of our hash function has a different key’s data.
 
@@ -44,7 +44,6 @@ Hash functions might produce the same hash for two different keys. This is known
 ## Possible operations
 Possible operations you can perform on an hashmap: 
 - Insertion
-- Traversal
 - Deletion
 - Searching
 
@@ -65,7 +64,6 @@ Possible operations you can perform on an hashmap:
 
 ## Time complexities
 
-- Access: O(1) / O(n)
 - Search: O(1) / O(n)
 - Insert: O(1) / O(n)
 - Delete: O(1) / O(n)

@@ -36,7 +36,7 @@ The process repeats until the largest element makes its way to the last index of
 
 We are performing n-1 comparisons for our inner loop. Then, we must go through the list n times in order to ensure that each item in our list has been placed in its proper order.
 
-The n signifies the number of elements in the list. In a worst case scenario, the inner loop does n-1 comparisons for each n element in the list.
+The `n` signifies the number of elements in the list. In a worst case scenario, the inner loop does `n-1` comparisons for each n element in the list.
 
 Therefore we calculate the algorithm’s efficiency as `O(n^2)` in average/worst case.
 

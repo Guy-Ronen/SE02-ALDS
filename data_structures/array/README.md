@@ -10,12 +10,11 @@
 ### Introduction
 Array is a data structure consisting of a collection of elements, each identified by an Index, which can be computed by a mathematical formula. 
 An array is stored in contiguous memory blocks.
-One of the Most fundamental data structure, the base of other other data structures (Graph, Queues, Stacks)
+Array is one of the Most fundamental data structure and the base of other data structures (Graph, Queues, Stacks).
 
 ![array](array.jpeg)
 
 <small>_Photo curtesy of: [Lucas Magnum (medium)](https://lucasmagnum.medium.com/sidenotes-array-abstract-data-type-data-structure-b154140c8305)_</small>
-The array main advatnage is tha ability to read data fast, takes only 'one step'. The disadvantage is that an array is static and not dynamic.
 
 ### Possible operations
 Possible operations you can perform on an array: 
@@ -23,7 +22,6 @@ Possible operations you can perform on an array:
 - Insertion
 - Deletion
 - Searching
-- Sorting
 
 ### Advantages
 - Arrays can store multiple elements of the same type with the same name.

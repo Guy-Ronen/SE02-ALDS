@@ -27,9 +27,11 @@ _The first person in the queue is the first to be served. Queues are a First In,
 
 Queues provide three methods for interaction:
 
-1. Enqueue - adds data to the “back” or end of the queue
-2. Dequeue - provides and removes data from the “front” or beginning of the queue
-3. Peek - reveals data from the “front” of the queue without removing it.
+1. Enqueue / Insertion - adds data to the “back” or end of the queue
+2. Dequeue / Deletion - provides and removes data from the “front” or beginning of the queue
+3. Search
+4. Access 
+5. Peek - reveals data from the “front” of the queue without removing it.
 
 ### Advantages
 - A large amount of data can be managed efficiently with ease.
@@ -65,3 +67,4 @@ Maximum size of a queue must be defined prior.
 - Insert: O(1)
 - Delete: O(1)
 - Search: O(n)
+- Peek: O(1)

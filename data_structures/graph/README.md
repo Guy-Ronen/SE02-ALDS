@@ -21,9 +21,9 @@ Web pages can be vertices, and the hyperlinks which connect them are edges.
 
 ## Types of Graphs:
 
-- Directed: a directed graph means that two vertices's are connected in a specific way. the fact that vertex A is connected to B doesn't mean that B is connected to A. Instegram is a practical example for that, the fact that a user following someone, doesn't mean that this someone following him   
+- **Directed:** a directed graph means that two vertices's are connected in a specific way. the fact that vertex A is connected to B doesn't mean that B is connected to A. Instegram is a practical example for that, the fact that a user following someone, doesn't mean that this someone following him   
 
-- Undirected: an undirected graph means that the connection between A to B is the same. A practical example is adding a friend on Facebook, both user sharing the same connection.
+- **Undirected:** an undirected graph means that the connection between A to B is the same. A practical example is adding a friend on Facebook, both user sharing the same connection.
 
 ## Weights
 

@@ -19,7 +19,7 @@ The list is terminated when a node’s link is `null`. This last node is called 
 
 ## Possible Operations
 Possible operations you can perform on a linked list: 
-- Traversal
+- Access
 - Insertion
 - Deletion
 - Searching
@@ -47,4 +47,4 @@ One example can be a one-way air travel itinerary. The trip could involve travel
 
 - Deletion: If you accidentally remove the single link to a node, that node’s data and any following nodes could be lost to your application, leaving you with orphaned nodes. This has a time-complexity of `O(1)`.
 
-- Traverse/search: both traversing and searching will have a time-complexity of `O(n)` at worst case in which we will have to traverse through the entire list.
+- Search: both traversing and searching will have a time-complexity of `O(n)` at worst case in which we will have to traverse through the entire list.

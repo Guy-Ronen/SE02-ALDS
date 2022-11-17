@@ -14,8 +14,6 @@ In Selection Sort, we maintain two parts:
 
 In sorted sub-array, all elements are in sorted order and are less than all elements of the unsorted sub-array.
 
-Selection Sort is as follows:
-
 ### How the algorithm works
 At the beginning, the size of sorted sub-array is 0 and the size of unsorted sub-array is n.
 
