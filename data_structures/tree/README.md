@@ -25,7 +25,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 
 <small>_Photo curtesy of: [wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))_</small>
 
-### Types of Trees data structures
+## Types of Trees data structures
 - `General Tree`: a general tree has no restrictions. A parent node can has any number of child nodes
 - `Binary Tree`: every node can has two nodes at all. One left tree and one right tree.
 - `Binary Search Tree`: is an optimised binary tree. Are used for various sort and search methods. The tree will sort the items.
