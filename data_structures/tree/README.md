@@ -29,7 +29,7 @@ Similar to linked lists and graphs, trees are composed of nodes which hold data.
 - `General Tree`: a general tree has no restrictions. A parent node can has any number of child nodes
 - `Binary Tree`: every node can has two nodes at all. One left tree and one right tree.
 - `Binary Search Tree`: is an optimised binary tree. Are used for various sort and search methods. The tree will sort the items.
-`Balanced Tree / AVL Tree`: is an optimised binary search tree. The left and right sub-tree only differs by one or are equal. The tree will always be balanced.
+- `Balanced Tree / AVL Tree`: is an optimised binary search tree. The left and right sub-tree only differs by one or are equal. The tree will always be balanced.
 
 ## Possible Operations
 Possible operations you can perform on an tree: 
