@@ -36,7 +36,7 @@ These costs are essential to algorithms that find the shortest distance between 
 <small>_Photo curtesy of: [@saringyaswift (medium)](https://medium.com/@sarinyaswift/intro-to-the-graph-data-structure-a8277c6a2ad9)_</small>
 
 We typically represent the vertex-edge relationship of a graph in two ways: an adjacency list or an adjacency matrix.
-### Adjacency Matrix
+## Adjacency Matrix
 
 An adjacency matrix is a table. Across the top, every vertex in the graph appears as a column. Down the side, every vertex appears again as a row. Edges can be bi-directional, so each vertex is listed twice.
 
@@ -44,7 +44,7 @@ To find an edge between B and P, we would look for the B row and then trace acro
 
 Our diagram uses 1 to mark an edge, 0 for the absence of an edge. In a weighted graph, the cell contains the cost of that edge.
 
-#### Time complexity 
+### Time complexity 
 
 Assuming the graph has `n` vertices, the time complexity to build such a matrix is `O(n^2)`. The space complexity is also `O(n^2)`. Given a graph, to build the adjacency matrix, we need to create a square `n` times `n` matrix and fill its values with 0 and 1. It costs us `O(n^2)` space.
 
@@ -59,11 +59,11 @@ To fill every value of the matrix we need to check if there is an edge between e
 2. If we want to find out which vertices are adjacent to a given vertex, you would have to go over all of the row.
 
 
-### Adjacency List
+## Adjacency List
 
 In an adjacency list, each vertex contains a list of the vertices where an edge exists. To find an edge, one looks through the list for the desired vertex.
 
-#### Time Complexity 
+### Time Complexity 
 
 If `m` is the number of edges in a graph, then the time complexity of building such a list is `O(m)`. The space complexity is `O(n + m)`. But, in the worst case of a complete graph, which contains `n/2` edges, the time and space complexities reduce to `O(n^2)`.
 
