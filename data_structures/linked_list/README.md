@@ -35,7 +35,10 @@ Possible operations you can perform on a linked list:
 
 ## Use Cases
 
-One example can be a one-way air travel itinerary. The trip could involve traveling through several airports (nodes) connected by air travel segments (links). In this example, the initial departure city is the head node and the final arrival city is the tail node.
+1. One-way air travel itinerary - traveling through airports (nodes) connected by air travel segments (links). The  departure city is the head node and the final arrival city is the tail node.
+2. Image viewer – Previous and next images are linked and can be accessed by the next and previous buttons.
+3. Previous and next page in a web browser – We can access the previous and next URL searched in a web browser by pressing the back and next buttons since they are linked as a linked list.
+4. Music Player – Songs in the music player are linked to the previous and next songs. So you can play songs either from starting or ending of the list.
 
 ## Python Implementation
 
