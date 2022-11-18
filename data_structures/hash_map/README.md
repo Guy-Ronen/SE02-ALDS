@@ -55,14 +55,14 @@ Possible operations you can perform on an hashmap:
 - Hashmap has a potential of collision when 2 distinct keys generate the same hash code.
 - Occasionally requires resizing when the original size of the hashmap buckets are full.
 
-## Use cases
+## Use Cases
 - A phonebook by using key-value pair of Name - Number.
 - Dictionaries which words are mapped to values - Meaning, Description of word.
-## Python implementation
+## Python Implementation
 
 [You can see my python implementation in here](./hash_map.py)
 
-## Time complexities
+## Time Complexities
 
 - Search: O(1) / O(n)
 - Insert: O(1) / O(n)
